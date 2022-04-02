@@ -6,7 +6,6 @@ const SubHeading = ({ title }) => (
   <div style={{ margonBottom: "1rem" }}>
     <p className="p__cormorant">{title}</p>
     <img src={images.spoon} alt="spoon" className="spoon__img" />
-    SubHeading
   </div>
 );
 
