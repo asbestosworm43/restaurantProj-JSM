@@ -51,7 +51,6 @@
   margin: 2rem 0;
   color: var(--color-grey);
 }
-// desktop
 @media screen and (max-width: 2000px) {
   .app__aboutus-content_knife img {
     height: 95rem;
@@ -61,7 +60,6 @@
     margin: 4rem 0;
   }
 }
-// tablet
 @media screen and (max-width: 900px) {
   .app__aboutus-content {
     flex-direction: column;
@@ -70,10 +68,12 @@
     margin: 4rem 0;
   }
 }
-// mobile
 @media screen and (max-width: 650px) {
   .app__aboutus-overlay img {
     width: 80%;
     height: 20rem;
+  }
+  .app__aboutus-content_knife img {
+    height: 45rem;
   }
 }
