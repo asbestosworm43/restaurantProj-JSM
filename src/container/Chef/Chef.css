@@ -25,7 +25,6 @@
 
 .app__chef-sign p:first-child {
   font-family: var(--font-base);
-  font-width: 400;
   font-size: 1.5rem;
   line-height: 3rem;
   letter-spacing: 0.04em;
@@ -44,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .app__chef-sign img {
     width: 80%;
   }

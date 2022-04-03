@@ -7,9 +7,35 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 8rem;
-  font-size: 5.8rem;
 }
 
 .app__header-img {
   width: 80%;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__header-h1 {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-h1 {
+    font-size: 5.8rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__header-h1 {
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
 }
