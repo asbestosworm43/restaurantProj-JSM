@@ -1,3 +1,7 @@
+This project was made possible because of JavaScriptMastery (a youtude coder), this was a cod along and i will not take any credit for this.
+I'll say it again! I have only coded along and is not to be credited for this project.
+Thanks JavaScriptMastery!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
